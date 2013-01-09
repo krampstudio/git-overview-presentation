@@ -3,12 +3,11 @@ git-overview-presentation
 
 French overview/presentation of GIT
 
-#Plan:
-
-## Retour d'expérience, pourquoi  je me suis intéressé à GIT 
-
+#Git Développez Autrement !
 
 ![git](http://git-scm.com/images/logos/1color-lightbg@2x.png)
+
+## Retour d'expérience, pourquoi  je me suis intéressé à GIT 
 
 ### Context
  
@@ -57,6 +56,8 @@ Interactive cheat sheet: http://ndpsoftware.com/git-cheatsheet.html
 
 ## Git Flavours
 
+> small demo for each ones
+
  * stash
  * bisect
  * cherry-pick
@@ -65,19 +66,20 @@ Interactive cheat sheet: http://ndpsoftware.com/git-cheatsheet.html
 ## Workflow 
 
 ###Subversion-Style Workflow
-A very common Git workflow, especially from people transitioning from a centralized system, is a centralized workflow. Git will not allow you to push if someone has pushed since the last time you fetched, so a centralized model where all developers push to the same server works just fine.
-subversion-style workflow
+Un dépots distant qui centralise les dépôts locaux. 
+(attention aux merges!)
 
 ![svn-wrokflow](http://thkoch2001.github.com/whygitisbetter/images/workflow-a.png)
 
 ###Integration Manager Workflow
-Another common Git workflow is where there is an integration manager—a single person who commits to the 'blessed' repository, and then a number of developers who clone from that repository, push to their own independent repositories and ask the integrator to pull in their changes. This is the type of development model you often see with open source or GitHub repositories.
-integration manager workflow
+Une seule personne (l'intégration manager) fait les merges et commit vers le _blessed repository_
 
 ![itm-wrokflow](http://thkoch2001.github.com/whygitisbetter/images/workflow-b.png)
 
 ###Dictator and Lieutenants Workflow
-For more massive projects, you can setup your developers similar to the way the Linux kernel is run, where people are in charge of a specific subsystem of the project ('lieutenants') and merge in all changes that have to do with that subsystem. Then another integrator (the 'dictator') can pull changes from only his/her lieutenants and push those to the 'blessed' repository that everyone then clones from again.
-dictator and lieutenants workflow
+Modèle à la _linux kernel_. Pour les gros projets
 
 ![oss-wrokflow](http://thkoch2001.github.com/whygitisbetter/images/workflow-c.png)
+
+###Do what you fuck you want!
+
