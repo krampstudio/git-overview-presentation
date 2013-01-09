@@ -50,7 +50,7 @@ French overview/presentation of GIT
 
 ![local-remote](http://thkoch2001.github.com/whygitisbetter/images/local-remote.png)
 
-http://ndpsoftware.com/git-cheatsheet.html
+Interactive cheat sheet: http://ndpsoftware.com/git-cheatsheet.html
 
 ## Git Flavours
 
