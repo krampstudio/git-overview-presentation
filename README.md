@@ -54,6 +54,27 @@ French overview/presentation of GIT
 
 Interactive cheat sheet: http://ndpsoftware.com/git-cheatsheet.html
 
+### Branches
+
+![branches-sample]imgs/github_branches.png)
+
+Types de branches:
+ 
+ * Local / Remote
+   * local tracking remote
+ * Orphelines ou non (attention!) 
+
+Utilisation de branches:
+
+ * Topic branches
+ * Long term branches
+ * Worflow based branches
+
+Stategies de merge: 
+
+ * merging
+ * rebasing
+
 ## Git Flavours
 
 > small demo for each ones
@@ -83,3 +104,18 @@ Modèle à la _linux kernel_. Pour les gros projets
 
 ###Do what you fuck you want!
 
+## Tools
+ 
+### Base GIT
+
+ * CLI (GIT bash for windows)
+ * TortoiseGit (W$)
+ * SourceTree (OSX)
+ * Giggle
+ * Gitk
+ * etc.
+
+### Integration
+
+ * Supporté dans les IDEs
+ * git-svn, git-cvs, git-hg
