@@ -7,6 +7,9 @@ French overview/presentation of GIT
 
 ## Retour d'expérience, pourquoi  je me suis intéressé à GIT 
 
+
+![git](http://git-scm.com/images/logos/1color-lightbg@2x.png)
+
 ### Context
  
  * 2009, chez un éditeur de soft
