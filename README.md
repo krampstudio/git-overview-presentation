@@ -48,7 +48,9 @@ French overview/presentation of GIT
  * Fait pour le merge et la gestion des branches
  * Toolkit based design + protocols integration (ssh, tls, http, etc.)
 
-## Bases
+## Bases overview
+
+### Le concept
 
 ![local-remote](http://thkoch2001.github.com/whygitisbetter/images/local-remote.png)
 
@@ -56,7 +58,7 @@ Interactive cheat sheet: http://ndpsoftware.com/git-cheatsheet.html
 
 ### Branches
 
-![branches-sample]imgs/github_branches.png)
+![branches-sample](imgs/github_branches.png)
 
 Types de branches:
  
@@ -79,10 +81,12 @@ Stategies de merge:
 
 > small demo for each ones
 
- * stash
- * bisect
- * cherry-pick
- * submodules
+ * `git stash` : la cachette
+ * `git bisect` : l'arme ultime pour isoler le commit fautif
+ * `git rebase` : faire le ménage
+ * `git cherry-pick` : la ceuillette aux commits
+ * `git submodules` : travailler avec plusieurs dépôts
+ * `git commit --amend` : corriger un commit
 
 ## Workflow 
 
